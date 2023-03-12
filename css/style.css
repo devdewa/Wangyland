@@ -862,4 +862,8 @@ strong {
   h5 {
     font-size: 20px;
   }
+  
+  .artists-section p {
+    font-size: 14px;
+  }
 }
