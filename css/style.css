@@ -866,4 +866,22 @@ strong {
   .artists-section p {
     font-size: 14px;
   }
+
+  .artists-hover {
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  nav a img {
+    display: none;
+  }
+
+  .artists-section p {
+    font-size: 13px;
+  }
+
+  .artists-hover {
+    padding: 15px 10px;
+  }
 }
