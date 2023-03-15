@@ -539,26 +539,31 @@ strong {
 
 
 /*---------------------------------------
-  ARTISTS              
+  GALERY             
 -----------------------------------------*/
-.artists-thumb {
+.galery-thumb {
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
 }
 
-.artists-image {
+.galery-image {
   border-radius: var(--border-radius-medium);
   display: block;
   width: 100%;
 }
 
-.artists-thumb:hover .artists-hover {
+.galery-thumb:hover .galery-hover {
   transform: translateY(0);
   opacity: 1;
 }
 
-.artists-hover {
+.galery-section p {
+  color: var(--white-color);
+  font-weight: 400;
+}
+
+.galery-hover {
   background-color: var(--primary-color);
   background-color: rgba(248, 203, 46, 0.75);
   border-radius: var(--border-radius-medium);
@@ -575,22 +580,22 @@ strong {
   opacity: 0;
 }
 
-.artists-hover p strong {
+.galery-hover p strong {
   color: var(--white-color);
   display: inline-block;
   min-width: 180px;
   margin-right: 20px;
 }
 
-.artists-hover p a {
+.galery-hover p a {
   color: var(--secondary-color);
 }
 
-.artists-hover p a:hover {
+.galery-hover p a:hover {
   color: var(--white-color);
 }
 
-.artists-hover hr {
+.galery-hover hr {
   margin: 1.5rem 0;
 }
 
